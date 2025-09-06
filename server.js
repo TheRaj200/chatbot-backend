@@ -10,7 +10,7 @@ const chatHistory = []
 const httpServer = createServer(app);
 const io = new Server(httpServer,{
   cors:{
-    origin: "https://chatbot-frontend-kappa-ruby.vercel.app/",
+    origin: "https://chatbot-frontend-kappa-ruby.vercel.app",
   }
 });
 
